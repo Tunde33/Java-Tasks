@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class DivisibleNumber {
   public static void main(String[] args) {
-     for (int i = 1; i <=30; i++){
-       if (i % 3 == 0){
+     for (int index = 1; index <=30; index++){
+       if (index % 3 == 0){
 
-       System.out.println(i);
+       System.out.println(index);
      }
    }
   }
